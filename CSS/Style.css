@@ -96,65 +96,19 @@
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
-    display: flex;
-    justify-content: center;
-    align-content: center;
+
 }
-.contentMe img{
-    height: auto;
-    width: 37.5em;
-    max-width: 100%;
+.aleft img{
     border-radius: 50%;
-}
-.textMe{
-    width: 500px;
-    max-width: 100%;
-    padding: 100px 10px;
-}
-.contentMe{
-    width: 1280px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-}
-.textMe h1{
-    color: #205375;
-    font-size: 5.3em;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-}
-.textMe h4{
-    color: white;
-    font-size: 1.5em;
-    margin-bottom: 25px;
-    text-transform: capitalize;
-}
-.textMe p{
-    color: #EFEFEF;
-    font-size: 1.1em;
-    line-height: 28px;
-    margin-bottom: 45px;
-}
-
-
-@media screen and (max-width: 1180px) {
-    #aboutMe{
+    max-height: 600px;
     width: auto;
     height: auto;
-    padding: 70px 0px;
 }
-}
-@media screen and (max-width: 650px) {
-    .contentMe img{
-        margin-bottom: 35px;
-    }
-    .textMe h1{
-        font-size: 3.5em;
-        margin-bottom: 25px;
-    }
+#aboutMe li{
+    text-align: center;
+    list-style: none;
+    color: #EFEFEF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*-------------------------------------Comienza page Skills--------------------------------------*/
@@ -282,39 +236,16 @@
 /* --------------------End Skills------------------------- */
 
 /*-------------------------------------comienza page blog----------------------------------------*/
-#blog{
+#blog {
     background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
-    font-family: 'Quicksand', sans-serif;
-    /* height: 100vh; */
-    text-align: center;
-    margin: 0;
 }
-.contenWB{
-    display: flex;
+.blogB{
+    height: auto;
+    width: 70%;
 }
-.card{
-    display: block;
-    background-color: transparent;
-    width: auto;
-    border: none;
-    margin: 1.25em;
-    overflow: hidden;
-    cursor: default;
-    transition: all 400ms ease;
+.video{
+    margin: 20px 20px 20px;
 }
-.card h3{
-    padding: 1em;
-}
-.card3{
-    margin: 0;
-}
-iframe{
-    max-width: 100%;
-    /* height: auto; */
-    aspect-ratio: 16/9;
-    box-shadow: 0 0 20px 0 rgba(241, 12, 12, 0.4) ;
-}
-
 /*---------------------------------------comienza Page Contanct----------------------------------------*/
 
 #contactMe{
@@ -327,7 +258,7 @@ iframe{
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
-    font-family: 'Nanum Gothic Coding', monospace; 
+    font-family: 'Nanum Gothic Coding', monospace;
 }
 .content h1{
     text-align: center;
